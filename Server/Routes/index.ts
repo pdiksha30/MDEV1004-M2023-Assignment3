@@ -21,7 +21,7 @@ router.get('/find/:id', function(req, res, next){
        DisplayMovieByID(req, res, next);
 });
 
-router.post('/add', passport.authenticate('jwt', {session: false}), function(req, res, next){
+router.post('/add', passport.authenticate('jwt', {session: false}) , function(req, res, next){
   AddMovie(req, res, next);
 })
 

@@ -1,3 +1,9 @@
+/*
+File: user.ts
+Student Name: Diksha patel , Namrata Savaliya
+StudentId: 200540067, 200548688
+Date: July 23, 2023
+ */
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 import passportLocalMongoose from 'passport-local-mongoose';

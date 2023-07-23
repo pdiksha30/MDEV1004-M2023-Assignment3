@@ -1,3 +1,9 @@
+/*
+File: app.ts
+Student Name: Diksha patel , Namrata Savaliya
+StudentId: 200540067, 200548688
+Date: July 23, 2023
+ */
 import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
